@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="none">
+  <path d="
+      M0 30
+      C40 10, 80 10, 120 30
+      S200 50, 240 30
+      S320 10, 360 30
+      S440 50, 480 30
+      S560 10, 600 30
+      S680 50, 720 30
+      S800 10, 840 30
+      S920 50, 960 30
+      S1040 10, 1080 30
+      S1160 50, 1200 30
+    " fill="none" stroke="#8b0000" stroke-width="3" stroke-linecap="round"></path>
+</svg>
