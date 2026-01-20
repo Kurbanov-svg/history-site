@@ -39,7 +39,7 @@ const HeroSite = () => {
         position: "50% 25%",
       },
     ],
-    []
+    [],
   );
 
   const INTERVAL_MS = 5200;
@@ -111,12 +111,12 @@ const HeroSite = () => {
                 alt={s.title}
                 fill
                 priority={i === 0}
-                quality={100} // 
+                quality={100} //
                 sizes="100vw"
                 placeholder="empty"
                 className="object-cover"
                 style={{
-                  objectPosition: s.position ?? "center", 
+                  objectPosition: s.position ?? "center",
                 }}
               />
             </div>
