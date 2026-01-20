@@ -1,5 +1,5 @@
-import HeroSecondSite from "@/components/Home/page/hero/HeroSecondSite";
-import HeroSite from "@/components/Home/page/hero/HeroSite";
+import HeroSecondSite from '../components/Home/page/hero/HeroSecondSite'
+import HeroSite from "../components/Home/page/hero/HeroSite"
 const page = () => {
   return (
     <div>

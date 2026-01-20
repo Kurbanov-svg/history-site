@@ -1,4 +1,4 @@
-import AboutPerson from "@/src/components/Home/page/aboutPerson/AboutPerson";
+import AboutPerson from "@/components/Home/page/aboutPerson/AboutPerson";
 
 const page = () => {
   return (

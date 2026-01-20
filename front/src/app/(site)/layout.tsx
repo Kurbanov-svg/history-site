@@ -1,5 +1,5 @@
 "use client";
-import LayoutSite from "@/src/components/layout/LayoutSite";
+import LayoutSite from "@/components/layout/LayoutSite";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { FC, ReactNode } from "react";
 

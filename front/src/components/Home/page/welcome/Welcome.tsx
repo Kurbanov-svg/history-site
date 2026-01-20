@@ -75,7 +75,7 @@ const Welcome = () => {
               fontFamily: "-apple-system",
             }}
           >
-            Известные люди Кыргызстана 
+            Известные люди Кыргызстана
           </h1>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {box.map((el, index) => (
@@ -111,7 +111,6 @@ const Welcome = () => {
             ))}
           </div>
         </div>
-
         <div className="absolute bottom-0 left-0 w-full rotate-180">
           <Image
             src="/etno.jpg"
