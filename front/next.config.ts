@@ -7,6 +7,7 @@ const nextConfig = {
       { protocol: "https", hostname: "encrypted-tbn0.gstatic.com" },
       { protocol: "https", hostname: "gdb.rferl.org" },
       { protocol: "https", hostname: "data.kaktus.media" },
+      { hostname: "i.vuzopedia.ru" },
     ],
   },
 };

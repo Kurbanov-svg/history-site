@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import LayoutSite from "../components/layout/LayoutSite";
-import LayoutClient from "./LayoutClient";
+import ReactQueryProvider from "../provider/ReactQueryProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,18 +20,20 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <LayoutClient>
-          <LayoutSite>{children}</LayoutSite>
-        </LayoutClient>
+        <ReactQueryProvider>{children}</ReactQueryProvider>
       </body>
     </html>
   );
 }
+<link
+  href="https://fonts.googleapis.com/css?family=Dancing+Script:regular,500,600,700"
+  rel="stylesheet"
+/>;

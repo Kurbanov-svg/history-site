@@ -1,12 +1,5 @@
-import Welcome from "@/src/components/Home/welcome/Welcome";
-import React from "react";
+import HomePage from "@/src/components/Home/page/HomePage";
 
-const page = () => {
-  return (
-    <div>
-      <Welcome />
-    </div>
-  );
-};
-
-export default page;
+export default function Home() {
+  return <HomePage />;
+}
