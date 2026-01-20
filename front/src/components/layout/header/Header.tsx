@@ -160,7 +160,7 @@ export default function Header() {
               className="hidden items-center gap-2 rounded-full border border-white/20 px-4 py-2 text-sm text-white/90 hover:border-white/40 sm:inline-flex"
             >
               <ShoppingBag className="h-4 w-4" />
-              Online Boutique
+              Register
             </Link>
 
             <Link

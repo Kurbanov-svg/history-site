@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
 
 interface ILayoutSiteProps {
   children: ReactNode;
@@ -8,7 +8,14 @@ interface ILayoutSiteProps {
 
 const LayoutSite: FC<ILayoutSiteProps> = ({ children }) => {
   return (
-    <div className="">
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        minHeight: "100vh",
+      }}
+    >
       <Header />
       {children}
       <Footer />
