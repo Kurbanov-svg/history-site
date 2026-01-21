@@ -84,7 +84,7 @@ const Welcome = () => {
                 className="group relative flex flex-col overflow-hidden rounded-2xl bg-black/80 border border-black shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(201,161,74,0.25)] hover:border-[#c9a14a]"
               >
                 <div className="relative h-[190px] overflow-hidden">
-                  <Link href="/detail">
+                  <Link href="/aboutperson">
                     <Image
                       src={el.img}
                       alt={el.title}
