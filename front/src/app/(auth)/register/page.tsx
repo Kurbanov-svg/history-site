@@ -1,3 +1,4 @@
-import Register from "@/src/components/auth/Register";
+import Register from "@/components/auth/Register";
+
 const page = () => <Register />;
 export default page;

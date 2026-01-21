@@ -75,7 +75,7 @@ const Welcome = () => {
               fontFamily: "-apple-system",
             }}
           >
-            Известные люди Кыргызстана 
+            Известные люди Кыргызстана
           </h1>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {box.map((el, index) => (
@@ -84,7 +84,7 @@ const Welcome = () => {
                 className="group relative flex flex-col overflow-hidden rounded-2xl bg-black/80 border border-black shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_60px_rgba(201,161,74,0.25)] hover:border-[#c9a14a]"
               >
                 <div className="relative h-[190px] overflow-hidden">
-                  <Link href="/detail">
+                  <Link href="/aboutperson">
                     <Image
                       src={el.img}
                       alt={el.title}
@@ -111,7 +111,6 @@ const Welcome = () => {
             ))}
           </div>
         </div>
-
         <div className="absolute bottom-0 left-0 w-full rotate-180">
           <Image
             src="/etno.jpg"

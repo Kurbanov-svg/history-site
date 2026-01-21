@@ -1,9 +1,8 @@
-import AboutPerson from "@/src/components/Home/page/aboutPerson/AboutPerson";
-
+import Details from "../../../../components/Home/page/details/Details";
 const page = () => {
   return (
     <div>
-      <AboutPerson />
+      <Details />
     </div>
   );
 };
